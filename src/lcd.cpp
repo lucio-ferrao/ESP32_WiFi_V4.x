@@ -495,6 +495,7 @@ void LcdTask::displayStateLine(uint8_t evseState, unsigned long &nextUpdate)
     case OPENEVSE_STATE_DISABLED:
       // Line 0 "zzZ Sleeping Zzz"
       showText(0, 0, "zzZ Sleeping Zzz", true);
+      showText(0, 0, "   SolX Ready   ", true);
       _updateStateDisplay = false;
       break;
 
