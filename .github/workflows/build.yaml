@@ -41,26 +41,7 @@ jobs:
       fail-fast: false
       matrix:
         env:
-          - nodemcu-32s
-          - espressif_esp-wrover-kit
-          - espressif_esp-wrover-kit_latest
-          - adafruit_huzzah32_dev
-          - adafruit_huzzah32
-          - adafruit_featheresp32
-          - openevse_wifi_v1
-          - olimex_esp32-gateway-old
-          - olimex_esp32-gateway-e
-          - olimex_esp32-gateway-f
-          - olimex_esp32-gateway-e_dev
-          - olimex_esp32-gateway-f_dev
-          - olimex_esp32-poe-iso
-          - heltec_esp32-wifi-lora-v2
-          - wt32-eth01
-          - esp32-c3-devkitc-02
-          - elecrow_esp32_hmi
-          - elecrow_esp32_hmi_dev
-          - openevse_wifi_tft_v1
-          - openevse_wifi_tft_v1_dev
+          - SolX
         gui:
           - name: gui-v2
             repo: OpenEVSE/openevse-gui-v2
