@@ -44,7 +44,7 @@ jobs:
           - SolX
         gui:
           - name: gui-v2
-            repo: OpenEVSE/openevse-gui-v2
+            repo: lucio-ferrao/openevse-gui-v2
             build_flags: ""
             ref: ${{ inputs.v2_ref }}
 
